@@ -1,12 +1,11 @@
+<template>
+  <navbar :sub-title="subTitle"/>
+</template>
+
 <script setup>
 import navbar from '@/components/navbar.vue'
-const subtitle = "blabla";
+const subTitle = 'blabla';
 </script>
-
-<template>
-  <navbar />
-  {{ subtitle }}
-</template>
 
 <style scoped>
 </style>
