@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "foundation-sites": "^6.8.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
