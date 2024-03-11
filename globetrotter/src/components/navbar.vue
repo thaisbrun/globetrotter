@@ -4,9 +4,9 @@
       <ul class="dropdown menu" data-dropdown-menu>
         <li class="menu-text">Site Title</li>
         <li>
-          <a href="#">{{ props.subTitle }}</a>
+          <a href="#">{{ props.name }}</a>
         </li>
-        <li><a href="#">Two</a></li>
+        <li><a href="#">{{ props.age }}</a></li>
         <li><a href="#">Three</a></li>
       </ul>
     </div>
@@ -17,9 +17,8 @@
       </ul>
     </div>
   </div>
-  {{ props.subTitle }}
 </template>
 
 <script setup>
-const props = defineProps(['subTitle']);
+const props = defineProps(['name','age']);
 </script>
