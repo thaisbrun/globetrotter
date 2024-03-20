@@ -1,22 +1,24 @@
 <template>
-  <navbar :name="name" :age="age"/>
 
-  <input type="text" v-model="name">
-  <input type="text" v-model="age">
+  <div :class="{'text-green': user.age > 20}">
+    <h1> {{ user.name }} </h1>
+  </div>
 </template>
 
 <script setup>
 import navbar from '@/components/navbar.vue'
 //Ref rend la variable réactive
-import { ref } from 'vue';
-const name = ref('thais');
-const age = ref(21);
+import { reactive } from 'vue';
 
-const display = () =>{
-  console.log(name)
-}
-display()
+const user = reactive({
+  name: 'thais',
+  age: 21,
+});
 </script>
 
 <style scoped>
+
+.text-green{
+  color:green;
+}
 </style>
