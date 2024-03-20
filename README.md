@@ -1,1 +1,13 @@
-Ce projet a été réalisé afin d'apprendre à utiliser le framework VueJS (JavaScript). Il s'agit d'une plateforme fictive de ventes de places de concert. 
+Ce projet a été réalisé afin d'apprendre à utiliser le framework VueJS (JavaScript) et la gestion de tests (Jest) via la création d'un site web de voyages. 
+Ce projet n'est pas abouti à 100%, il est régulièrement modifié et continuera d'être amélioré au fur et à mesure.
+AUCUN de mes projets est en ligne actuellement, il s'agit de projets fictifs afin de gagner en compétences ou simplement parfois par plaisir. 
+
+Ma "méthodologie" de développement est commune à tous mes projets : 
+- Création des wireframes (avec Figma)
+- Création d'un tableau Kanban pour les tâches à effectuer (Trello)
+- Création du MCD (Umlet)
+- Création de la BDD (pour ce projet ci : ...)
+- Initialisation du projet et création des différentes fonctionnalités
+- Mettre en place les principales règles OWASP (Même si le projet est horsligne, rien n'empêche d'appliquer des bonnes pratiques)
+- Mise en forme visuelle avec un framework css (Foundation)
+  
