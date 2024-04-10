@@ -1,6 +1,6 @@
 Ce projet a été réalisé afin d'apprendre à utiliser le framework VueJS (JavaScript) et la gestion de tests (Jest) via la création d'un site web de voyages. 
 Ce projet n'est pas abouti à 100%, il est régulièrement modifié et continuera d'être amélioré au fur et à mesure.
-Aucun de mes projets sont en ligne actuellement, il s'agit de projets fictifs afin de gagner en compétences ou simplement parfois par plaisir. 
+Aucun de mes projets est en ligne actuellement, il s'agit de projets fictifs afin de gagner en compétences. 
 
 Ma "méthodologie" de développement est commune à tous mes projets : 
 - Création des wireframes (avec Figma)
