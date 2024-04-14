@@ -1,17 +1,15 @@
 <template>
-
+<navbar 
+@update-name="name => display(name)"
+/>
 </template>
 
 <script setup>
 import navbar from '@/components/navbar.vue'
-//Ref rend la variable réactive
-import {watch, ref} from 'vue';
 
-const name = ref('Thaïs');
-const age = ref(21);
-watch(name, (newValue, oldValue) =>{
-  console.log(newValue, oldValue);
-})
+const display = (name) => {
+  console.log('App.vue : ' + name)
+}
 </script>
 
 <style scoped>
