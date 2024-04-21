@@ -1,21 +1,20 @@
 <template>
-  <h1>Hello</h1>
-  
-{{name}}
-
-<input type="text" v-model="name" @input="handleUpdate">
-
+  <ul class="flex">
+    <li class="mr-6">
+      <a class="text-blue-500 hover:text-blue-800" href="#">Active</a>
+    </li>
+    <li class="mr-6">
+      <a class="text-blue-500 hover:text-blue-800" href="#">Link</a>
+    </li>
+    <li class="mr-6">
+      <a class="text-blue-500 hover:text-blue-800" href="#">Link</a>
+    </li>
+    <li class="mr-6">
+      <a class="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
+    </li>
+  </ul>
 </template>
 
 <script setup>
-
-import {ref} from 'vue';
-
-const emit = defineEmits(['updateName'])
-
-const handleUpdate = (event) => {
- emit('updateName', event.target.value);
-}
-const name = ref('');
 
 </script>
