@@ -1,0 +1,36 @@
+# Fichiers de log
+*.log
+
+# Dossiers de cache
+node_modules/
+.cache/
+
+# Fichiers de configuration locaux
+*.env
+*.local
+config/
+
+# Fichiers compilés
+*.class
+*.o
+*.so
+*.exe
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.user
+*.userosscache
+*.suo
+*.pdb
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*.sublime-workspace
